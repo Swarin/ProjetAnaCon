@@ -1,0 +1,84 @@
+Enoncé
+Le système de suivi des dépenses personnelles permet aux utilisateurs de gérer leurs
+finances en toute simplicité.
+Les utilisateurs pourront créer un compte en fournissant leur nom d'utilisateur, adresse
+e-mail et mot de passe. Une vérification de l'email sera nécessaire pour s'assurer que les
+informations de compte sont correctes.
+Les utilisateurs pourront ajouter des transactions en entrant le montant, la date, la catégorie
+et une description. Ils pourront également modifier ou supprimer des transactions déjà
+enregistrées. Par exemple, si un utilisateur a enregistré une dépense pour "déjeuner" mais
+se rend compte plus tard qu'il s'agissait en réalité d'un "dîner", il pourra facilement corriger la
+catégorie.
+Les utilisateurs pourront ajouter, modifier ou supprimer des catégories pour classer leurs
+dépenses. Par exemple, ils pourront créer des catégories telles que "nourriture", "transport"
+et "loisirs".
+Les utilisateurs pourront visualiser leurs dépenses en un coup d'oeil en utilisant des
+graphiques et des tableaux. Ils pourront également filtrer les dépenses en fonction de la
+catégorie et de la période de temps, ce qui les aidera à mieux comprendre leurs habitudes
+de dépenses.
+Les utilisateurs pourront générer des rapports détaillés de leurs dépenses en fonction de la
+catégorie et de la période de temps. Cela les aidera à mieux comprendre leurs habitudes de
+dépenses et à prendre des décisions plus informées sur la gestion de leurs finances.
+Les utilisateurs pourront importer des transactions à partir de fichiers CSV, ce qui les aidera
+à économiser du temps lors de l'enregistrement des dépenses.
+Les utilisateurs pourront synchroniser leur compte de suivi des dépenses avec leur compte
+bancaire en ligne, ce qui les aidera à suivre automatiquement leurs dépenses sans avoir à
+les entrer manuellement.
+L'ensemble des données sont sauvegardées sur un serveur sécurisé.
+Consignes de remise
+Voici l’ensemble des informations qui doivent se retrouver dans votre rapport.
+N’hésitez pas à faire des hypothèses si des problèmes se posent. Lors des séances de
+questions-réponses, réponse uniquement à des questions techniques sur UML et non à des
+questions sur l’énoncé du Projet ou sur la façon de modéliser des aspects concrets. Soyez
+donc autonomes et créatifs.
+Précisez soigneusement les hypothèses que vous faites pour utiliser, interpréter ou
+compléter les informations de l’énoncé.
+Le rapport est à remettre pour le lundi 29 mai 2022.
+Diagramme des cas d’utilisation
+On demande
+1. de modéliser avec un diagramme de cas d’utilisation le fonctionnement du système.
+a. Tous les cas d’utilisation d’un système doivent être décrits sous forme
+textuelle (scénarios).
+b. Ne pas oublier les relations entre cas d’utilisation (généralisation, extension,
+inclusion).
+c. Identification des acteurs et des relations possibles entre eux.
+Diagramme de Classes
+On demande
+1. de modéliser le diagramme de classes correspondant au système.
+a. Assurez-vous de bien identifier les informations suivantes :
+i. le nom et le type des attributs ;
+ii. la signature complète des méthodes,
+b. Déterminez la relation statique appropriée (généralisation, composition,
+agrégation ou association) si besoin entre classes.
+Diagramme d’état
+On demande de modéliser les diagrammes d’états du scénario suivant:
+“Lorsque l'utilisateur lance le système pour la première fois, il est accueilli par un écran
+d'authentification qui lui permet de se connecter avec un nom d'utilisateur et un mot de
+passe existants ou de s'enregistrer en entrant des informations personnelles telles que le
+nom, l'adresse e-mail et un mot de passe.
+Une fois connecté, l'utilisateur peut accéder à ses transactions enregistrées et à ses
+informations de compte. L'interface utilisateur affiche un tableau des transactions, y compris
+les détails pertinents tels que la date, le montant, la catégorie et la description. L'utilisateur
+peut également accéder à une fonction de filtrage pour afficher les transactions
+correspondant à des critères spécifiques, tels que la catégorie ou la période de temps.
+Lorsqu’il est connecté, l'utilisateur peut ajouter une nouvelle transaction en cliquant sur un
+bouton "Ajouter Transaction". Une fenêtre contextuelle s'ouvre pour que l'utilisateur entre les
+détails pertinents, tels que la date, le montant, la catégorie et la description. Une fois les
+informations saisies, l'utilisateur peut cliquer sur un bouton "Enregistrer" pour ajouter la
+transaction au système.
+L'utilisateur peut importer des transactions à partir d'un fichier CSV en cliquant sur un
+bouton "Importer Transactions". Le système validera le fichier pour vérifier qu'il est conforme
+au format attendu et affichera une erreur si nécessaire. Si le fichier est valide, les
+transactions seront ajoutées au système.
+L'utilisateur peut générer un rapport de ses dépenses en cliquant sur un bouton "Générer
+Rapport". Une fenêtre contextuelle s'ouvre pour que l'utilisateur sélectionne une période de
+temps et filtre les dépenses par catégorie. Le système génère alors le rapport sous forme de
+graphique ou de tableau qui peut être enregistré ou imprimé pour une consultation
+ultérieure.”
+a. Ajoutez les transitions qui correspondent aux comportements « alternatifs »
+ou d’exception ;
+b. N’oubliez pas les points d’entrées et de sorties, transitions automatiques ou
+manuelles.
+Diagramme de Séquences
+On demande de modéliser les diagrammes de séquences du même scénario que le
+diagramme d’états ci-dessus.
